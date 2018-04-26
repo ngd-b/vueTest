@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="three">
 		<h3>{{msg}}</h3>
 		<h4>child Message:{{count+`次`+info}}</h4>
 		<child :someMsg='p01' v-on:fromchild='childMsg'></child>
@@ -31,4 +31,7 @@
 </script>
 
 <style scoped>
+	.three{
+		
+	}
 </style>

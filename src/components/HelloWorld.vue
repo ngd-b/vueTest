@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="test">
     <h2>{{msg+'video+audio'}}</h2>
     <video width="320px" height="245px" controls>
         <source src="../assets/videoes/002.mp4" type="video/mp4">
@@ -21,5 +21,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+  
 </style>

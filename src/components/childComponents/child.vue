@@ -30,7 +30,7 @@
 		color:red;
 	}
 	.child{
-		
+		padding-bottom:10px;
 		border:1px solid #eee;
 	}
 </style>
